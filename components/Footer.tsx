@@ -23,7 +23,7 @@ const Footer = () => {
             Let&apos;s connect and see how <span className="text-purple"> my skills </span> can help bring your ideas to life.
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
-            Let&apos;s connect and see how my skills in software development and data science can help bring your ideas to life.
+            Lets connect and see how my skills in software development and data science can help bring your ideas to life.
           </p>
           <a href="mailto:iisael090@gmail.com">
             <MagicButton title="Let&apos;s get in touch" icon={<FaLocationArrow />} position="right" />
