@@ -20,7 +20,7 @@ const Footer = () => {
         {/* Call-to-Action Section */}
         <div className="flex flex-col items-center">
           <h1 className="heading lg:max-w-[45vw] text-center">
-            Let's connect and see how <span className="text-purple"> my skills </span> can help bring your ideas to life.
+            Let&apos;s connect and see how <span className="text-purple"> my skills </span> can help bring your ideas to life.
           </h1>
           <p className="text-white-200 md:mt-10 my-5 text-center">
             Lets connect and see how my skills in software development and data science can help bring your ideas to life.
