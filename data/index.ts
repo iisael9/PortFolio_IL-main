@@ -5,7 +5,7 @@ export const navItems = [
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
     { name: "Timeline", link: "#TimeLine" },
-    { name: "Photography", link: "#photography" },
+    // { name: "Photography", link: "#photography" },
     { name: "Contact", link: "#contact" },
 ];
 
@@ -22,7 +22,7 @@ export const gridItems = [
     },
     {
         id: 2,
-        title: "I&apos;m very flexible with time zone communications",
+        title: "I'm very flexible with time zone communications",
         description: "",
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
@@ -77,7 +77,7 @@ export const projects = [
         id: 1,
         title: "Whose Song Is It? - Spotify Party Game",
         des: "An interactive web app where users log in with Spotify, contribute their playlists, and compete to guess whose playlist a song belongs to!",
-        img: "spotify-game.webp",
+        img: "/spotify-game.webp",
         iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
         link: "https://github.com/iisael9/spotify-guess-game",
     },
@@ -107,6 +107,7 @@ export const projects = [
     },
 ];
 
+
 export const testimonials = [
     {
         quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
@@ -116,36 +117,36 @@ export const testimonials = [
 ];
 
 export const companies: Company[] = [
-    {
-        id: 1,
-        name: "Cloudinary",
-        img: "/cloud.svg",
-        nameImg: "/cloudName.svg",
-    },
-    {
-        id: 2,
-        name: "Appwrite",
-        img: "/app.svg",
-        nameImg: "/appName.svg",
-    },
-    {
-        id: 3,
-        name: "HOSTINGER",
-        img: "/host.svg",
-        nameImg: "/hostName.svg",
-    },
-    {
-        id: 4,
-        name: "Stream",
-        img: "/s.svg",
-        nameImg: "/streamName.svg",
-    },
-    {
-        id: 5,
-        name: "Docker",
-        img: "/dock.svg",
-        nameImg: "/dockerName.svg",
-    },
+    // {
+    //     id: 1,
+    //     name: "Cloudinary",
+    //     img: "/cloud.svg",
+    //     nameImg: "/cloudName.svg",
+    // },
+    // {
+    //     id: 2,
+    //     name: "Appwrite",
+    //     img: "/app.svg",
+    //     nameImg: "/appName.svg",
+    // },
+    // {
+    //     id: 3,
+    //     name: "HOSTINGER",
+    //     img: "/host.svg",
+    //     nameImg: "/hostName.svg",
+    // },
+    // {
+    //     id: 4,
+    //     name: "Stream",
+    //     img: "/s.svg",
+    //     nameImg: "/streamName.svg",
+    // },
+    // {
+    //     id: 5,
+    //     name: "Docker",
+    //     img: "/dock.svg",
+    //     nameImg: "/dockerName.svg",
+    // },
 ];
 
 export const workExperience = [
