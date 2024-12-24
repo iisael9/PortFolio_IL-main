@@ -17,7 +17,7 @@ export const gridItems = [
         className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
         imgClassName: "w-full h-full",
         titleClassName: "justify-end",
-        img: "/b1.svg",
+        img: "/static/images/b1.svg",
         spareImg: "",
     },
     {
@@ -47,7 +47,7 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-1",
         imgClassName: "",
         titleClassName: "justify-start",
-        img: "/grid.svg",
+        img: "/static/images/grid.svg",
         spareImg: "/b4.svg",
     },
     {
@@ -57,7 +57,7 @@ export const gridItems = [
         className: "md:col-span-3 md:row-span-2",
         imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
         titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/b5.svg",
+        img: "/static/images/b5.svg",
         spareImg: "/grid.svg",
     },
     {
@@ -91,7 +91,12 @@ export const projects = [
         title: "Forest of Enchantment",
         des: "Forest of Enchantment is a 2D platformer set in a lush, mystical forest teeming with magical creatures and hidden secrets.",
         img: "/static/images/FOE.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+        iconLists: [
+            "/static/images/re.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/three.svg", 
+            "/static/images/fm.svg"],
         link: "https://github.com/iisael9/__Forest_Of_Enchantment",
     },
     {
@@ -99,7 +104,12 @@ export const projects = [
         title: "G2 Insurance Business Website",
         des: "G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance.",
         img: "/static/images/G2.png",
-        iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+        iconLists: [
+            "/static/images/re.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/three.svg", 
+            "/static/images/fm.svg"],
         link: "https://github.com/iisael9/G2Insurance",
     },
     {
@@ -107,7 +117,12 @@ export const projects = [
         title: "Autonomous Drone Shadowing with AI",
         des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies.",
         img: "/static/images/drone.png",
-        iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+        iconLists: [
+            "/static/images/re.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/three.svg", 
+            "/static/images/fm.svg"],
         link: "https://github.com/iisael9/DroneCode",
     },
 ];
@@ -160,45 +175,45 @@ export const workExperience = [
         title: "Centers of Research Excellence in Science and Technology (CREST) Program (Internship) July-December 2024",
         desc: "Developed an AI-driven drone tracking system. Created an adaptive Python algorithm. Analyzed and improved detection accuracy.",
         className: "md:col-span-2",
-        thumbnail: "/exp1.svg",
+        thumbnail: "/static/images/exp1.svg",
     },
     {
         id: 2,
         title: "Game Design - 2D Top-Down Adventure",
         desc: "Led a team of 7 students to build a top-down 2D game and SRS document outlining scope, user interface, communication interface, memory, runtime, error handling, design constraints, and product functions.",
         className: "md:col-span-2",
-        thumbnail: "/exp2.svg",
+        thumbnail: "/static/images/exp2.svg",
     },
     {
         id: 3,
         title: "Freelance Business Website Project",
         desc: "G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance.",
         className: "md:col-span-2",
-        thumbnail: "/exp3.svg",
+        thumbnail: "/static/images/exp3.svg",
     },
     {
         id: 4,
         title: "Education",
         desc: "California State University, San Bernardino B.S Computer Science & Minor in Data Science.",
         className: "md:col-span-2 font-semi-bold",
-        thumbnail: "/exp4.svg",
+        thumbnail: "/static/images/exp4.svg",
     },
 ];
 
 export const socialMedia = [
     {
         id: 1,
-        img: "/git.svg",
+        img: "/static/images/git.svg",
         url: "https://github.com/iisael9",
     },
     {
         id: 2,
-        img: "/insta.svg",
+        img: "/static/images/insta.svg",
         url: "https://www.instagram.com/sspace9/",
     },
     {
         id: 3,
-        img: "/link.svg",
+        img: "/static/images/link.svg",
         url: "https://www.linkedin.com/in/isael-lazcano-b22047294",
     },
 ];
