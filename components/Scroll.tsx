@@ -27,31 +27,28 @@ const images = [
 const Scroll = () => {
     return (
         <div id="photography" className="w-full py-20">
-            <h1 className="text-4xl font-bold text-center mb-10">
-                <span className="text-purple-600">Photography</span>
-            </h1>
-            <br />
-            {/* Button Above the Photos */}
-            <div className="text-center mb-10">
-                <a
-                    href="https://photos.app.goo.gl/VNNWSB61FBnnUpCx7"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block"
-                >
-                    <MagicButton
-                        title="Check out more of my photography"
-                        icon={<FaLocationArrow />}
-                        position="right"
-                        otherClasses="text-4xl font-bold px-20 py-10"
-                    />
-                </a>
-                <br />
-                <br />
-            </div>
-
-            <ParallaxScroll images={images} />
-        </div>
+    <h1 className="text-4xl font-bold text-center mb-10">
+        <span className="text-purple-600">Photography</span>
+    </h1>
+    <br />
+    {/* Button Above the Photos */}
+    <div className="text-center mb-10">
+        <a
+            href="https://photos.app.goo.gl/VNNWSB61FBnnUpCx7"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+        >
+            <MagicButton
+                title="Check out more of my photography"
+                icon={<FaLocationArrow />}
+                position="right"
+                otherClasses="text-4xl font-bold px-12 py-4"
+            />
+        </a>
+    </div>
+    <ParallaxScroll images={images} />
+</div>
     );
 };
 

@@ -12,6 +12,7 @@ import { BackgroundGradientAnimation } from "./GradientBg";
 // import GridGlobe from "./GridGlobe";
 import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
+import { FaLocationArrow } from "react-icons/fa6";
 
 export const BentoGrid = ({
   className,
@@ -191,6 +192,18 @@ export const BentoGridItem = ({
                 handleClick={handleCopy}
                 otherClasses="!bg-[#161A31]"
               />
+            </div>
+          )}
+          {id === 4 && (
+            <div className="mt-5 relative">
+              <a href="/moreAboutMe">
+                <MagicButton
+                  title="Learn More About Me"
+                  icon={<FaLocationArrow />}
+                  position="right"
+                  otherClasses="!bg-[#161A31]"
+                />
+              </a>
             </div>
           )}
         </div>

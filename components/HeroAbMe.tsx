@@ -57,7 +57,7 @@ const HeroAbMe = () => {
           <div className="flex items-center space-x-4 mt-5">
             <a href="/">
               <MagicButton
-                title="Home"
+                title="Home Page"
                 icon={<FaLocationArrow />}
                 position="right"
               />
