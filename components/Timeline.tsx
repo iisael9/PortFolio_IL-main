@@ -18,7 +18,7 @@ const TimeLine = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/static/images/drone.png"
+                            src="/static/images/drone.PNG"
                             alt="Drone"
                             width={500}
                             height={500}
