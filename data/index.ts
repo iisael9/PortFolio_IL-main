@@ -115,7 +115,7 @@ export const projects = [
         id: 3,
         title: "G2 Insurance Business Website",
         des: "G2 Insurance Website is a single-page application (SPA) built to showcase the services offered by G2 Business & Auto Insurance.",
-        img: "/static/images/G2.png",
+        img: "/static/images/G2.PNG",
         iconLists: [
             "/static/images/re.svg", 
             "/static/images/tail.svg", 
@@ -128,7 +128,7 @@ export const projects = [
         id: 4,
         title: "Autonomous Drone Shadowing with AI",
         des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies.",
-        img: "/static/images/drone.png",
+        img: "/static/images/drone.PNG",
         iconLists: [
             "/static/images/re.svg", 
             "/static/images/tail.svg", 
