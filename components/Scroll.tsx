@@ -22,6 +22,18 @@ const images = [
     "/static/images/p13.jpg",
     "/static/images/p14.jpg",
     "/static/images/p15.jpg",
+
+    "/static/images/p25.jpg",
+    "/static/images/p5.jpg",
+    "/static/images/p6.png",
+
+    "/static/images/p7.jpg",
+    "/static/images/p10.jpg",
+    "/static/images/p21.jpg",
+
+    "/static/images/p22.jpg",
+    "/static/images/p23.jpg",
+    "/static/images/p24.jpg",
 ];
 
 const Scroll = () => {
