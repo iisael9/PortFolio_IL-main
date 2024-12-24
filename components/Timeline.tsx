@@ -18,14 +18,14 @@ const TimeLine = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/drone.png"
+                            src="/static/images/drone.png"
                             alt="Drone"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src="/csusb.webp"
+                            src="/static/images/csusb.webp"
                             alt="Drone"
                             width={500}
                             height={500}
@@ -44,14 +44,14 @@ const TimeLine = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/FOE.png"
+                            src="/static/images/FOE.png"
                             alt="Drone"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src="/student.png"
+                            src="/static/images/student.png"
                             alt="Drone"
                             width={500}
                             height={500}
@@ -70,14 +70,14 @@ const TimeLine = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/new.jpeg"
+                            src="/static/images/new.jpeg"
                             alt="Drone"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src="/1.jpg"
+                            src="/static/images/1.jpg"
                             alt="Drone"
                             width={500}
                             height={500}
@@ -96,14 +96,14 @@ const TimeLine = () => {
                     </p>
                     <div className="grid grid-cols-2 gap-4">
                         <Image
-                            src="/bus.avif"
+                            src="/static/images/bus.avif"
                             alt="Drone"
                             width={500}
                             height={500}
                             className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
                         />
                         <Image
-                            src="/bus-01.jpg"
+                            src="/static/images/bus-01.jpg"
                             alt="Drone"
                             width={500}
                             height={500}
