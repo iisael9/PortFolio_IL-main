@@ -91,11 +91,11 @@ export const projects = [
         des: "An interactive web app where users log in with Spotify, contribute their playlists, and compete to guess whose playlist a song belongs to!",
         img: "/static/images/spotify-game.webp",
         iconLists: [
-            "/static/images/re.svg", 
+            "/static/images/spf.svg", 
             "/static/images/tail.svg", 
             "/static/images/ts.svg", 
-            "/static/images/three.svg", 
-            "/static/images/fm.svg"],
+            "/static/images/git.svg", 
+            "/static/images/re.svg"],
         link: "https://github.com/iisael9/spotify-guess-game",
     },
     {
@@ -104,11 +104,10 @@ export const projects = [
         des: "Forest of Enchantment is a 2D platformer set in a lush, mystical forest teeming with magical creatures and hidden secrets.",
         img: "/static/images/FOE.png",
         iconLists: [
-            "/static/images/re.svg", 
-            "/static/images/tail.svg", 
-            "/static/images/ts.svg", 
-            "/static/images/three.svg", 
-            "/static/images/fm.svg"],
+            "/static/images/c--4.svg", 
+            "/static/images/icons8-unity.svg", 
+            "/static/images/git.svg", 
+            "/static/images/pacman.svg",],
         link: "https://github.com/iisael9/__Forest_Of_Enchantment",
     },
     {
@@ -119,9 +118,7 @@ export const projects = [
         iconLists: [
             "/static/images/re.svg", 
             "/static/images/tail.svg", 
-            "/static/images/ts.svg", 
-            "/static/images/three.svg", 
-            "/static/images/fm.svg"],
+            "/static/images/ts.svg",],
         link: "https://github.com/iisael9/G2Insurance",
     },
     {
@@ -130,11 +127,11 @@ export const projects = [
         des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies.",
         img: "/static/images/drone.PNG",
         iconLists: [
-            "/static/images/re.svg", 
-            "/static/images/tail.svg", 
-            "/static/images/ts.svg", 
-            "/static/images/three.svg", 
-            "/static/images/fm.svg"],
+            "/static/images/pi.svg", 
+            "/static/images/drr.svg", 
+            "/static/images/Qg.svg", 
+            "/static/images/py.svg", 
+            "/static/images/tf.svg"],
         link: "https://github.com/iisael9/DroneCode",
     },
 ];
