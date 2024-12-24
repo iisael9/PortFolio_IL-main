@@ -29,6 +29,7 @@ const Footer = () => {
             <MagicButton title="Let&apos;s get in touch" icon={<FaLocationArrow />} position="right" />
           </a>
         </div>
+        
 
         {/* Footer Section */}
         <div className="flex flex-col md:flex-row justify-between items-center mt-16">
@@ -36,6 +37,8 @@ const Footer = () => {
           <p className="md:text-base text-sm md:font-normal font-light mb-4 md:mb-0">
             Copyright © 2024 Isael
           </p>
+
+          
 
           {/* Social Media Links */}
           <div className="flex items-center md:gap-8 gap-6">

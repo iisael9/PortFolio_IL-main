@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 // import Lamp from "@/components/Lamp";
 import RecentProjects from "@/components/RecentProjects";
-import TimeLine from "@/components/Timeline";
+// import TimeLine from "@/components/Timeline";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
 import { navItems } from "@/data";
@@ -25,7 +25,7 @@ export default function Home() {
         <Clients />
         <Experience />
         <Approach />
-        <TimeLine />
+        {/* <TimeLine /> */}
         <Footer />
         {/* <Lamp />/ */}
       </div>

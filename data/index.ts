@@ -4,9 +4,17 @@ export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
     { name: "Testimonials", link: "#testimonials" },
-    { name: "Timeline", link: "#TimeLine" },
+    // { name: "Timeline", link: "#TimeLine" },
     // { name: "Photography", link: "#photography" },
     { name: "Contact", link: "#contact" },
+    { name: "More About Me", link: "/moreAboutMe" },
+];
+
+export const aboutMeNavItems = [
+    { name: "Home", link: "/" },
+    { name: "Timeline", link: "#TimeLine" },
+    { name: "Photography", link: "#photography" },
+    { name: "Contact", link: "#footer" },
 ];
 
 export const gridItems = [

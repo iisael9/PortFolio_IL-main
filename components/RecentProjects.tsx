@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-import Image from "next/image";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -33,18 +32,15 @@ const RecentProjects = () => {
                 {/* Image Section */}
                 <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-6">
                   <div className="relative w-full h-full overflow-hidden lg:rounded-3xl">
-                    <Image
-                      src="/bg.png"
+                    <img
+                      src="/static/images/bg.png"
                       alt="background"
-                      layout="fill"
-                      className="absolute inset-0 object-cover"
+                      className="absolute inset-0 w-full h-full object-cover"
                     />
                   </div>
-                  <Image
+                  <img
                     src={item.img}
                     alt={item.title}
-                    width={400} // Adjust dimensions
-                    height={300} // Adjust dimensions
                     className="absolute bottom-0 z-10 w-full lg:w-auto lg:h-auto"
                   />
                 </div>
@@ -67,13 +63,7 @@ const RecentProjects = () => {
                         key={index}
                         className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       >
-                        <Image
-                          src={icon}
-                          alt={`icon-${index}`}
-                          width={40} // Adjust dimensions
-                          height={40} // Adjust dimensions
-                          className="p-2"
-                        />
+                        <img src={icon} alt={`icon-${index}`} className="p-2" />
                       </div>
                     ))}
                   </div>
