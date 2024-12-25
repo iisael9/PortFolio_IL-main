@@ -2,6 +2,8 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import ShimmerButton from "./ShimmerButton";
+import { IconUser } from "@tabler/icons-react";
 
 const Footer = () => {
   return (
@@ -26,9 +28,14 @@ const Footer = () => {
             Lets connect and see how my skills in software development and data science can help bring your ideas to life.
           </p>
           <a href="mailto:iisael090@gmail.com">
-            <MagicButton title="Let&apos;s get in touch" icon={<FaLocationArrow />} position="right" />
+            <MagicButton title="Let&apos;s get in touch" 
+            icon={<FaLocationArrow />} 
+            position="right" />
           </a>
         </div>
+        
+        
+        
         
 
         {/* Footer Section */}
@@ -37,27 +44,44 @@ const Footer = () => {
           <p className="md:text-base text-sm md:font-normal font-light mb-4 md:mb-0">
             Copyright © 2024 Isael
           </p>
+          
 
           
 
           {/* Social Media Links */}
-          <div className="flex items-center md:gap-8 gap-6">
-            {socialMedia.map((profile) => (
-              <a
-                key={profile.id}
-                href={profile.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="cursor-pointer"
-              >
-                <div
-                  className="w-16 h-16 flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
-                >
-                  <img src={profile.img} alt={String(profile.id)} width={40} height={40} />
-                </div>
-              </a>
-            ))}
-          </div>
+          {/* Social Media Links */}
+<div className="flex items-center md:gap-8 gap-6">
+  {socialMedia.map((profile) => (
+    <a
+      title={profile.title || ""}
+      key={profile.id}
+      href={profile.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="cursor-pointer"
+    >
+      <div
+        className={`w-16 h-16 flex flex-col items-center justify-center space-y-1 backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300`}
+      >
+        {/* Icon */}
+        <img
+          src={profile.img}
+          alt={String(profile.id)}
+          width={30}
+          height={30}
+          className="flex-shrink-0 filter invert dark:invert-0 dark:brightness-110 text-blue-300"
+        />
+        {/* Title */}
+        {profile.title && (
+          <span className="text-white text-[10px] dark:text-blue-300 font-medium text-center leading-tight">
+            {profile.title}
+          </span>
+        )}
+      </div>
+    </a>
+  ))}
+</div>
+
         </div>
       </div>
     </footer>

@@ -230,4 +230,10 @@ export const socialMedia = [
         img: "/static/images/link.svg",
         url: "https://www.linkedin.com/in/isael-lazcano-b22047294",
     },
+    {
+        title: "More About Me",
+        id: 4,
+        img: "/static/images/fingerprint.svg",
+        url: "/moreAboutMe",
+    },
 ];
