@@ -11,6 +11,7 @@ import RecentProjects from "@/components/RecentProjects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import Grid from "@/components/Grid";
 import { navItems } from "@/data";
+import FloatingHomePage from "@/components/FloatingHomePage";
 // import Scroll from "@/components/Scroll";
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
         <Approach />
         {/* <TimeLine /> */}
         <Footer />
-        {/* <Lamp />/ */}
+        <FloatingHomePage />
       </div>
     </main>
   );
