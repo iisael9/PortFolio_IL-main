@@ -19,28 +19,28 @@ import {
 const Floating = () => {
   const links = [
     {
-      title: "Scroll to Top",
+      title: "↕ Scroll to Top",
       icon: (
-        <IconArrowUpDashed className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconArrowUpDashed className="h-full w-full text-purple" />
       ),
       href: "#Home",
     },
     {
-      title: "Timeline",
+      title: "↕ Timeline",
       icon: (
-        <IconCalendar  className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconCalendar  className="h-full w-full text-purple" />
       ),
       href: "#TimeLine",
     },
     {
-      title: "Photography",
+      title: "↕ Photography",
       icon: (
-        <IconCamera className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconCamera className="h-full w-full text-purple" />
       ),
       href: "#photography",
     },
     {
-      title: "Google Photos Link",
+      title: "https://photos.app.goo.gl/VNNWSB61FBnnUpCx7 ↗",
       icon: (
         <IconBrandGooglePhotos className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
@@ -59,35 +59,35 @@ const Floating = () => {
     //   href: "#",
     // },
     {
-      title: "Instagram",
+      title: "https://www.instagram.com/sspace9/ ↗",
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.instagram.com/sspace9/",
     },
     {
-      title: "LinkedIn",
+      title: "https://www.linkedin.com/in/isael-lazcano-b22047294 ↗",
       icon: (
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.linkedin.com/in/isael-lazcano-b22047294",
     },
     {
-      title: "GitHub",
+      title: "https://github.com/iisael9 ↗",
       icon: (
         <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://github.com/iisael9",
     },
     {
-        title: "Contact",
+        title: "↕ Contact",
         icon: (
-          <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconMail className="h-full w-full text-purple" />
         ),
         href: "#contact",
       },
      {
-      title: "Home Page",
+      title: "← Home Page ",
       icon: (
         <IconHomeSpark className="h-full w-full text-neutral-500 dark:text-blue-300" />
       ),
