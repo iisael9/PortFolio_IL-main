@@ -5,6 +5,7 @@ import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 import MagicButton from "./MagicButton";
 
 import { FaLocationArrow } from "react-icons/fa";
+import { IconBrandGooglePhotos } from "@tabler/icons-react";
 
 const images = [
     "/static/images/p1.jpg",
@@ -53,7 +54,7 @@ const Scroll = () => {
         >
             <MagicButton
                 title="Check out more of my photography"
-                icon={<FaLocationArrow />}
+                icon={<IconBrandGooglePhotos />}
                 position="right"
                 otherClasses="text-4xl font-bold px-12 py-4"
             />
