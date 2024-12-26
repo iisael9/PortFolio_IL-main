@@ -3,8 +3,6 @@
 import React from "react";
 import { ParallaxScroll } from "@/components/ui/parallax-scroll";
 import MagicButton from "./MagicButton";
-
-import { FaLocationArrow } from "react-icons/fa";
 import { IconBrandGooglePhotos } from "@tabler/icons-react";
 
 const images = [

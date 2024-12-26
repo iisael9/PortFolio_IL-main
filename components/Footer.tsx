@@ -7,8 +7,10 @@ import { IconUser } from "@tabler/icons-react";
 
 const Footer = () => {
   return (
+    
     <footer id="contact" className="w-full pb-10 mb-[100px] md:mb-5 relative">
       {/* Background Grid */}
+      <div><hr /><br /><br /></div>
       <div className="w-full absolute left-0 -bottom-72 min-h-96">
         <img
           src="/static/images/footer-grid.svg"
@@ -16,6 +18,7 @@ const Footer = () => {
           className="w-full h-full opacity-50"
         />
       </div>
+      
 
       {/* Main Content */}
       <div>
