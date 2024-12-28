@@ -39,7 +39,7 @@ const Scroll = () => {
     return (
         <div id="photography" className="w-full py-20">
     <h1 className="text-4xl font-bold text-center mb-10">
-        <span className="text-purple-600">Photography</span>
+        <p>Through my <span className="text-purple font-bold">Lens.</span></p>
     </h1>
     <br />
     {/* Button Above the Photos */}

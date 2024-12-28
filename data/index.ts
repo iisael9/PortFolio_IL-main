@@ -139,16 +139,19 @@ export const projects = [
 
 export const testimonials = [
     {
-        quote: "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        quote: "Isael Lazcano did an outstanding job creating the website for G2 Insurance. From start to finish, he made the process seamless, taking the time to understand our business needs and delivering a site that is both professional and easy to navigate. The final product exceeded my expectations, and we've already seen an increase in inquiries from clients thanks to the site’s user-friendly design. Isael's communication, attention to detail, and timely delivery were exceptional. I highly recommend him to anyone looking for a dependable and skilled web developer!",
+        name: "Veronica Parra",
+        title: "Owner of G2 Insurance",
+        image: "/static/images/veronica-parra.jpg",
     },
     {
-        quote: "Coool cat",
+        quote: "Isael is a cool cat! He delivered beyond expectations and the website he created for us is both functional and visually appealing. Highly recommend his services.",
         name: "Michael Johnson",
         title: "Director of AlphaStream Technologies",
+        image: "/static/images/profile.svg",
     },
 ];
+
 
 export const companies: Company[] = [
     // {

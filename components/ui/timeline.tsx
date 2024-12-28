@@ -7,9 +7,10 @@ import {
 import React, { useEffect, useRef, useState } from "react";
 
 interface TimelineEntry {
-    title: string;
+    title: React.ReactNode; // Change from 'string' to 'React.ReactNode'
     content: React.ReactNode;
 }
+
 
 export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     const ref = useRef<HTMLDivElement>(null);
@@ -21,7 +22,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
             const rect = ref.current.getBoundingClientRect();
             setHeight(rect.height);
         }
-    }, [ref]);
+    }, []);
 
     const { scrollYProgress } = useScroll({
         target: containerRef,
@@ -33,18 +34,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
 
     return (
         <div
-            className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10"
             ref={containerRef}
+            className="w-full bg-transparent font-sans md:px-10"
         >
-            <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
-                <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-                    Changelog from my journey
-                </h2>
-                <p className="text-neutral-700 dark:text-neutral-300 text-lg md:text-xl font-bold max-w-sm">
-                    I&apos;ve been working on Journey of Improving for 3 years.
-                    <span className="text-purple-500"> Here&apos;s a timeline of my journey.</span>
-                </p>
-            </div>
+            <div className="max-w-7xl mx-auto py-12 px-6 md:px-8 lg:px-10 space-y-6">
+            <h2 className="text-2xl md:text-4xl font-semibold text-black dark:text-white max-w-4xl leading-snug">
+                Reflecting on <span className="text-purple">My Journey</span>: A Changelog of <span className="text-purple">Growth</span>
+            </h2>
+            <p className="text-neutral-700 dark:text-neutral-300 text-xl md:text-2xl lg:text-3xl font-medium max-w-xl">
+                Over the past 3 years, I&apos;ve been dedicated to continuous <span className="text-purple font-bold">improvement</span> and <span className="text-purple font-bold">learning</span>. Here&apos;s a
+                <span className="text-purple font-bold">  timeline capturing .</span> 
+            </p>
+        </div>
 
 
             <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
@@ -57,7 +58,10 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                             <div className="h-10 absolute left-3 md:left-3 w-10 rounded-full bg-white dark:bg-black flex items-center justify-center">
                                 <div className="h-4 w-4 rounded-full bg-neutral-200 dark:bg-neutral-800 border border-neutral-300 dark:border-neutral-700 p-2" />
                             </div>
-                            <h3 className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500 ">
+                            <h3
+                                className="hidden md:block text-xl md:pl-20 md:text-5xl font-bold text-neutral-500 dark:text-neutral-500"
+                                aria-label={`Timeline heading for ${item.title}`}
+                            >
                                 {item.title}
                             </h3>
                         </div>
@@ -66,22 +70,23 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
                             <h3 className="md:hidden block text-2xl mb-4 text-left font-bold text-neutral-500 dark:text-neutral-500">
                                 {item.title}
                             </h3>
-                            {item.content}{" "}
+                            {item.content}
                         </div>
                     </div>
                 ))}
                 <div
                     style={{
-                        height: height + "px",
+                        height: `${height}px`,
                     }}
-                    className="absolute md:left-8 left-8 top-0 overflow-hidden w-[2px] bg-[linear-gradient(to_bottom,var(--tw-gradient-stops))] from-transparent from-[0%] via-neutral-200 dark:via-neutral-700 to-transparent to-[99%]  [mask-image:linear-gradient(to_bottom,transparent_0%,black_10%,black_90%,transparent_100%)] "
+                    className="absolute md:left-8 left-8 top-0 overflow-hidden w-[2px]"
                 >
                     <motion.div
                         style={{
                             height: heightTransform,
                             opacity: opacityTransform,
+                            background: "linear-gradient(to bottom, #4A5568, #805AD5)", // From gray to purple
                         }}
-                        className="absolute inset-x-0 top-0  w-[2px] bg-gradient-to-t from-purple-500 via-blue-500 to-transparent from-[0%] via-[10%] rounded-full"
+                        className="absolute inset-x-0 top-0 w-[2px] rounded-full"
                     />
                 </div>
             </div>
