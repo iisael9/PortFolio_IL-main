@@ -18,8 +18,6 @@ export default function MoreAboutMe() {
         <FloatingNav navItems={aboutMeNavItems} />
         
         <HeroAbMe />
-        {/* Sections */}
-        {/* <Photography />  */}
         <Timeline /> {/* Reuse Timeline */}
         <Scroll />
         <Footer /> {/* Reuse Footer */}

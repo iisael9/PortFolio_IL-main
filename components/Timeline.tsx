@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { Timeline } from "@/components/ui/timeline";
+// import Lamp from "./Lamp";
 
 interface TimelineEntry {
     title: React.ReactNode; // Allow JSX elements
@@ -122,6 +123,7 @@ const TimeLine = () => {
             <h1 className="text-4xl font-bold text-center mb-10">
                 <span className="text-purple-600">My Timeline</span>
             </h1>
+            {/* <Lamp /> */}
             <Timeline data={data} />
         </div>
     );
