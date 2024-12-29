@@ -120,9 +120,9 @@ const TimeLine = () => {
 
     return (
         <div id="TimeLine" className="w-full py-20">
-            <h1 className="text-4xl font-bold text-center mb-10">
+            {/* <h1 className="text-4xl font-bold text-center mb-10">
                 <span className="text-purple-600">My Timeline</span>
-            </h1>
+            </h1> */}
             {/* <Lamp /> */}
             <Timeline data={data} />
         </div>

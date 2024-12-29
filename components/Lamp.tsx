@@ -14,8 +14,9 @@ export function LampDemo() {
           duration: 0.8,
           ease: "easeInOut",
         }}
-        className=" bg-gradient-to-br from-slate-300 to-slate-500 "
+        className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
+        Timeline 
       </motion.h1>
     </LampContainer>
   );
@@ -25,6 +26,7 @@ const Lamp = () => {
   return (
     <div>
       <LampDemo />
+      
     </div>
   )
 }
