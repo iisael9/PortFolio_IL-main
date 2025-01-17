@@ -43,7 +43,7 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
-        img: "/static/images/b1.svg",
+        img: "https://w.wallhaven.cc/full/ox/wallhaven-oxlv7l.png",
         spareImg: "",
     },
     {
@@ -65,10 +65,10 @@ export const gridItems = [
         title: "Currently building Jackbox-Like Spotify Guessing Game.",
         description: "The Inside Scoop",
         className: "md:col-span-3 md:row-span-2",
-        imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-        titleClassName: "justify-center md:justify-start lg:justify-center",
-        img: "/static/images/b5.svg",
-        spareImg: "/grid.svg",
+        imgClassName: "object-cover w-full h-full",
+        titleClassName: "",
+        img: "/static/images/caset.PNG",
+        spareImg: "",
     },
     {
         id: 6,
@@ -85,17 +85,18 @@ export const gridItems = [
 export const projects = [
     {
         id: 1,
-        title: "Whose Song Is It? - Spotify Party Game",
-        des: "An interactive web app where users log in with Spotify, contribute their playlists, and compete to guess whose playlist a song belongs to!",
-        img: "/static/images/spotify-game.webp",
+        title: "Autonomous Drone Shadowing with AI",
+        des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies.",
+        img: "/static/images/drone.PNG",
         iconLists: [
-            "/static/images/spf.svg", 
-            "/static/images/tail.svg", 
-            "/static/images/ts.svg", 
-            "/static/images/git.svg", 
-            "/static/images/re.svg"],
-        link: "https://github.com/iisael9/spotify-guess-game",
+            "/static/images/pi.svg", 
+            "/static/images/drr.svg", 
+            "/static/images/Qg.svg", 
+            "/static/images/py.svg", 
+            "/static/images/tf.svg"],
+        link: "https://github.com/iisael9/DroneCode",
     },
+    
     {
         id: 2,
         title: "Forest of Enchantment",
@@ -121,16 +122,42 @@ export const projects = [
     },
     {
         id: 4,
-        title: "Autonomous Drone Shadowing with AI",
-        des: "This project focuses on developing a system for autonomous drone detection and tracking using AI-powered technologies.",
-        img: "/static/images/drone.PNG",
+        title: "R2U Consulting Website",
+        des: "A responsive platform showcasing HR and bookkeeping services with intuitive navigation and a professional design for easy client access.",
+        img: "/static/images/r2usc.png",
         iconLists: [
-            "/static/images/pi.svg", 
-            "/static/images/drr.svg", 
-            "/static/images/Qg.svg", 
-            "/static/images/py.svg", 
-            "/static/images/tf.svg"],
-        link: "https://github.com/iisael9/DroneCode",
+            // "/static/images/spf.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/git.svg", 
+            "/static/images/re.svg"],
+        link: "https://r2u.vercel.app/",
+    },
+    {
+        id: 5,
+        title: "Whose Song Is It? - Spotify Party Game",
+        des: "An interactive web app where users log in with Spotify, contribute their playlists, and compete to guess whose playlist a song belongs to!",
+        img: "/static/images/caset.PNG",
+        iconLists: [
+            "/static/images/spf.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/git.svg", 
+            "/static/images/re.svg"],
+        link: "https://github.com/iisael9/spotify-guess-game",
+    },
+    {
+        id: 6,
+        title: "This Portfolio Website!",
+        des: "Learning as I go approach. First time using NextJs. Designed and developed a visually appealing and interactive portfolio website to showcase personal projects. ",
+        img: "/static/images/pw.png",
+        iconLists: [
+            // "/static/images/spf.svg", 
+            "/static/images/tail.svg", 
+            "/static/images/ts.svg", 
+            "/static/images/git.svg", 
+            "/static/images/re.svg"],
+        link: "https://github.com/iisael9/PortFolio_IL-main",
     },
 ];
 
@@ -143,9 +170,14 @@ export const testimonials = [
         image: "/static/images/veronica-parra.jpg",
     },
     {
-        quote: "Isael is a cool cat! He delivered beyond expectations and the website he created for us is both functional and visually appealing. Highly recommend his services.",
-        name: "Michael Johnson",
-        title: "Director of AlphaStream Technologies",
+        quote: "Isael brings a rare mix of technical skill and creativity to his work. His dedication to understanding the client’s vision and bringing it to life is unmatched. The website he developed for our business has received countless compliments for its clean design and seamless functionality. Isael is a true professional and a joy to collaborate with",
+        name: "Lonjino Lazcano",
+        title: "Google Data Analyst",
+        image: "/static/images/veronica-parra.jpg",
+    },
+    {
+        quote: "Working with Isael Lazcano on the R2U Consulting Services website was an absolute pleasure. His ability to translate our ideas into a polished, functional, and aesthetically pleasing design was remarkable. He was proactive in suggesting improvements and ensured that every detail was executed perfectly. Isael’s professionalism and expertise have made a lasting impression, and I wouldn’t hesitate to work with him again in the future!",
+        title: "R2U Consulting",
         image: "/static/images/profile.svg",
     },
 ];
@@ -187,7 +219,7 @@ export const companies: Company[] = [
 export const workExperience = [
     {
         id: 1,
-        title: "Centers of Research Excellence in Science and Technology (CREST) Program (Internship) July-December 2024",
+        title: "Centers of Research Excellence in Science and Technology",
         desc: "Developed an AI-driven drone tracking system. Created an adaptive Python algorithm. Analyzed and improved detection accuracy.",
         className: "md:col-span-2",
         thumbnail: "/static/images/exp1.svg",
@@ -208,8 +240,8 @@ export const workExperience = [
     },
     {
         id: 4,
-        title: "Education",
-        desc: "California State University, San Bernardino B.S Computer Science & Minor in Data Science.",
+        title: "Web Developer",
+        desc: "R2U Consulting Services Website is a professional platform designed to showcase the consulting services offered by R2U. Built using Next.js and React, the website features four dedicated pages, a responsive layout, and integrates Resend for seamless email handling.",
         className: "md:col-span-2 font-semi-bold",
         thumbnail: "/static/images/exp4.svg",
     },
