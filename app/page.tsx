@@ -23,9 +23,9 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Clients />
         <Experience />
         <Approach />
+        <Clients />
         {/* <TimeLine /> */}
         <Footer />
         <FloatingHomePage />
