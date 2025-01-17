@@ -43,7 +43,7 @@ export const gridItems = [
         className: "lg:col-span-2 md:col-span-3 md:row-span-2",
         imgClassName: "",
         titleClassName: "justify-center",
-        img: "https://w.wallhaven.cc/full/ox/wallhaven-oxlv7l.png",
+        img: "https://w.wallhaven.cc/full/6q/wallhaven-6q1e27.jpg",
         spareImg: "",
     },
     {
