@@ -177,6 +177,7 @@ export const testimonials = [
     },
     {
         quote: "Working with Isael Lazcano on the R2U Consulting Services website was an absolute pleasure. His ability to translate our ideas into a polished, functional, and aesthetically pleasing design was remarkable. He was proactive in suggesting improvements and ensured that every detail was executed perfectly. Isael’s professionalism and expertise have made a lasting impression, and I wouldn’t hesitate to work with him again in the future!",
+        name: "Ramona Ramirez",
         title: "R2U Consulting",
         image: "/static/images/profile.svg",
     },
