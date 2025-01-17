@@ -5,8 +5,7 @@ import { FloatingDock } from "./ui/floating-dock";
 import {
   IconBrandGithub,
   IconHomeSpark,
-//   IconNewSection,
-  IconCalendar ,
+  IconCalendar,
   IconArrowUpDashed,
   IconBrandInstagram,
   IconBrandLinkedin,
@@ -14,29 +13,22 @@ import {
   IconCamera,
   IconBrandGooglePhotos,
 } from "@tabler/icons-react";
-// import Image from "next/image";
 
 const Floating = () => {
   const links = [
     {
       title: "↕ Scroll to Top",
-      icon: (
-        <IconArrowUpDashed className="h-full w-full text-purple" />
-      ),
+      icon: <IconArrowUpDashed className="h-full w-full text-purple" />,
       href: "#Home",
     },
     {
       title: "↕ Timeline",
-      icon: (
-        <IconCalendar  className="h-full w-full text-purple" />
-      ),
+      icon: <IconCalendar className="h-full w-full text-purple" />,
       href: "#TimeLine",
     },
     {
       title: "↕ Photography",
-      icon: (
-        <IconCamera className="h-full w-full text-purple" />
-      ),
+      icon: <IconCamera className="h-full w-full text-purple" />,
       href: "#photography",
     },
     {
@@ -46,18 +38,6 @@ const Floating = () => {
       ),
       href: "https://photos.app.goo.gl/VNNWSB61FBnnUpCx7",
     },
-    // {
-    //   title: "HomePage",
-    //   icon: (
-    //     <Image
-    //       src="https://assets.aceternity.com/logo-dark.png"
-    //       width={20}
-    //       height={20}
-    //       alt="Aceternity Logo"
-    //     />
-    //   ),
-    //   href: "#",
-    // },
     {
       title: "https://www.instagram.com/sspace9/ ↗",
       icon: (
@@ -80,14 +60,12 @@ const Floating = () => {
       href: "https://github.com/iisael9",
     },
     {
-        title: "↕ Contact",
-        icon: (
-          <IconMail className="h-full w-full text-purple" />
-        ),
-        href: "#contact",
-      },
-     {
-      title: "← Home Page ",
+      title: "↕ Contact",
+      icon: <IconMail className="h-full w-full text-purple" />,
+      href: "#contact",
+    },
+    {
+      title: "← Home Page",
       icon: (
         <IconHomeSpark className="h-full w-full text-neutral-500 dark:text-blue-300" />
       ),
@@ -96,7 +74,7 @@ const Floating = () => {
   ];
 
   return (
-    <div className="flex items-center justify-center h-[35rem] w-full">
+    <div className="flex items-center justify-center w-full">
       <FloatingDock
         mobileClassName="translate-y-20" // Adjust as needed
         desktopClassName="fixed bottom-4 inset-x-0 z-50"
