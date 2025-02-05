@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-
 import "./globals.css";
-import { ThemeProvider } from "./provider";
+import SEOProvider from "./SEOProvider"; // Import the Client Component
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Isael\'s Portfolio",
-  description: "Modern & Minimal JS Mastery Portfolio",
+  title: "Isael's Portfolio",
+  description: "A modern & minimal portfolio showcasing my JavaScript projects and skills.",
 };
 
 export default function RootLayout({
@@ -18,18 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        <link rel="icon" href="/jsm-logo.png" sizes="any" />
-      </head>
       <body className={inter.className}>
-        <ThemeProvider
-          attribute="class"
-          defaultTheme="dark"
-          enableSystem
-          disableTransitionOnChange
-        >
-          {children}
-        </ThemeProvider>
+        {/* ✅ Client Components moved inside SEOProvider */}
+        <SEOProvider>{children}</SEOProvider>
       </body>
     </html>
   );
