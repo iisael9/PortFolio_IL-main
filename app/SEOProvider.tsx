@@ -8,23 +8,23 @@ export default function SEOProvider({ children }: { children: React.ReactNode })
     <>
       {/* ✅ SEO Configuration */}
       <DefaultSeo
-        title="Isael's Portfolio Website"
+        title="Isael Lazcano's Portfolio Website"
         description="A modern & minimal portfolio showcasing my JavaScript projects and skills."
         openGraph={{
           type: "website",
           locale: "en_US",
           url: "https://port-folio-il-main.vercel.app/", // Update with your actual domain
-          title: "Isael's Portfolio",
+          title: "Isael Lazcano's Portfolio",
           description: "A modern & minimal portfolio showcasing my JavaScript projects and skills.",
           images: [
             {
               url: "https://port-folio-il-main.vercel.app//og-image.jpg", // Update with your real OpenGraph image
               width: 1200,
               height: 630,
-              alt: "Isael's Portfolio Preview",
+              alt: "Isael Lazcano's Portfolio Preview",
             },
           ],
-          site_name: "Isael's Portfolio",
+          site_name: "Isael Lazcano's Portfolio",
         }}
         twitter={{
           handle: "@yourhandle", // Update this if you have Twitter
