@@ -4,7 +4,7 @@ export async function GET() {
   const robotsTxt = `User-agent: *
 Disallow:
 
-Sitemap: https://port-folio-il-main.vercel.app/api/sitemap.xml
+Sitemap: https://port-folio-il-main.vercel.app/api/sitemap
 `;
 
   return new NextResponse(robotsTxt, {
