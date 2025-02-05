@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 const BASE_URL = "https://port-folio-il-main.vercel.app"; // ✅ Your domain
 
 export async function GET() {
-  const pages = ["/", "/about", "/projects", "/contact"]; // ✅ Add your actual page paths
+  const pages = ["/", "/moreAboutMe"]; // ✅ Add your actual page paths
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
