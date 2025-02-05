@@ -1,9 +1,9 @@
 import { NextResponse } from "next/server";
 
-const BASE_URL = "https://port-folio-il-main.vercel.app"; // Your domain
+const BASE_URL = "https://port-folio-il-main.vercel.app"; // ✅ Replace with your domain
 
 export async function GET() {
-  const pages = ["/", "/moreAboutMe"]; // Add all relevant pages
+  const pages = ["/", "/moreAboutMe"]; // ✅ Add all valid page URLs
 
   const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
