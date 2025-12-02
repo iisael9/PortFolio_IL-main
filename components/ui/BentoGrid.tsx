@@ -203,8 +203,8 @@ const rightLists = ["C#", "NextJS", "Git"];
 
               {/* MagicButton with Download functionality */}
               <a 
-                href="/IsaelLazcano_resume_01-31-25.pdf" 
-                download="IsaelLazcano_resume_01-31-25.pdf"
+                href="/Lazcano_Isael_Analyst_2025_11_22.docx.pdf" 
+                download="Lazcano_Isael_Analyst_2025_11_22.docx.pdf"
               >
                 <MagicButton
                   title={copied ? "PDF Downloaded!" : "Download Here!"}
